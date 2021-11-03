@@ -1,0 +1,4 @@
+This packdge is used to calculate behavioral windows by HMM (packadge HMMAll)
+1. main program is Main102_classifyBehaviorsTVwin.m
+2. the data needed is in phenotypeData
+3. the result of this calculation is saved in resultData(Wintypes.mat and selectWin.mat)
