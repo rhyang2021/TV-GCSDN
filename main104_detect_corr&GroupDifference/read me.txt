@@ -1,0 +1,3 @@
+This main program is used to do the analysis.
+1. calculte group difference in three types of behavioral windows by anova1 in 6 directions.
+2. calculate the behavioral correlation between information flow and behavioral slope/R^2.

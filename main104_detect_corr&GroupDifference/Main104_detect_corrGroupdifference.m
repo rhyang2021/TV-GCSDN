@@ -1,5 +1,5 @@
 clear;close all;clc;
-load('/Users/yangruihan/Desktop/data&code/taskfMRI/resultData/finalData_windowLevel')
+load('../resultData/finalData_windowLevel')
 label = {'BA10 \rightarrow rDLPFC', 'rDLPFC \rightarrow BA10',...
     'BA10 \rightarrow rTPJ', 'rTPJ \rightarrow BA10',...
     'rDLPFC \rightarrow rTPJ', 'rTPJ \rightarrow rDLPFC'};
