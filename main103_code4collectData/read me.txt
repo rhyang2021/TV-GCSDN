@@ -1,0 +1,3 @@
+FinalDataforWindow is used to collect the result data at each behavorial window
+2. the data needed is in phenotypeData and resultData
+3. the result of this calculation is saved in resultData as finalData_windowLevel.mat
