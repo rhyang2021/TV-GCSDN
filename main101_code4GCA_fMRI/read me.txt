@@ -1,0 +1,4 @@
+This packdge is used to calculate the information flow by Time-varying GCSDN
+1. main program is Main101_demo4TVdeception.m
+2. the data needed is in phenotypeData
+3. the result of this calculation is myResult_wid4_RegressHeadMotion_3HRF_noctrlSuddenMove_PatternSearch_initial.mat .
