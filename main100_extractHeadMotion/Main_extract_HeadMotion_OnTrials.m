@@ -5,7 +5,7 @@
 clear;close all;clc;
 disp('Step 1: Load data and parameter setting');
 RandStream('mt19937ar','seed',1000);
-load('datafordeception.mat');
+load('../phenotypeData/datafordeception.mat');
 clear Luo Luo2  Regions i datalength ans subject_list
 clear rTPJ BA10 earnings iqid roi roinames
 clear con inc strat
@@ -55,6 +55,6 @@ HM_frameWise(:,1,:) = [];
 
 clear  subj i j k  BigMotion
 name = {'Transition','Rotation'};
-save('../resultData/HeadMotion','HM_displamnt','HM_frameWise','name');
-save('./HeadMotion','HM_displamnt','HM_frameWise','name');
+% save('../resultData/HeadMotion','HM_displamnt','HM_frameWise','name');
+% save('./HeadMotion','HM_displamnt','HM_frameWise','name');
 disp('ok ... ...')

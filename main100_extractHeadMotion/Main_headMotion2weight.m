@@ -5,7 +5,7 @@
 
 % % % Load data
 clear;close all;clc;
-load('datafordeception.mat');
+load('../phenotypeData/datafordeception.mat');
 clear Luo Luo2  Regions i datalength ans subject_list roi
 clear BA10 inds iqid rTPJ roinames iq
 
@@ -63,7 +63,7 @@ end
 
 % my_pcolor(newExclude>2);
 exclude = newExclude;
-save('exclude','exclude');
-save('../main101_code4GCA_fMRI/exclude','exclude');
+% save('exclude','exclude');
+% save('../main101_code4GCA_fMRI/exclude','exclude');
 clear i j iTrail subj nTrial nSub
 disp('The End ... ...')
