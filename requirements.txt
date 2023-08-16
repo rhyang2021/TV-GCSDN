@@ -1,0 +1,16 @@
+openai
+langchain>=0.0.234
+anthropic
+gradio
+pydantic
+coloredlogs
+ujson
+tiktoken
+tqdm
+inflect
+vertexai
+google-cloud-aiplatform>=1.28.1
+torch
+pygments
+matplotlib
+transformers
